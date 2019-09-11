@@ -9,5 +9,6 @@ namespace DatingApp.API.Data
 
         //Osht mire me i shkru n'plural emrat e entities. (I.e. Values)
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
